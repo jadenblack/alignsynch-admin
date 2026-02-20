@@ -1,0 +1,2424 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.5.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": " (2).gitignore",
+        "hash": "1930695437526056313"
+      },
+      {
+        "file": ".claude/settings.json",
+        "hash": "4174402289047638020"
+      },
+      {
+        "file": ".codex/config.toml",
+        "hash": "14824829763614501486"
+      },
+      {
+        "file": ".cursor/agents/ci-monitor-subagent.md",
+        "hash": "182904442403863611"
+      },
+      {
+        "file": ".cursor/commands/monitor-ci.md",
+        "hash": "3726727520094652647"
+      },
+      {
+        "file": ".cursor/skills/link-workspace-packages/SKILL.md",
+        "hash": "15436383388001770446"
+      },
+      {
+        "file": ".cursor/skills/monitor-ci/SKILL.md",
+        "hash": "9468003408493328484"
+      },
+      {
+        "file": ".cursor/skills/nx-generate/SKILL.md",
+        "hash": "9325031674722245942"
+      },
+      {
+        "file": ".cursor/skills/nx-plugins/SKILL.md",
+        "hash": "17761452540263218782"
+      },
+      {
+        "file": ".cursor/skills/nx-run-tasks/SKILL.md",
+        "hash": "6310165843200780094"
+      },
+      {
+        "file": ".cursor/skills/nx-workspace/SKILL.md",
+        "hash": "15239321302212089310"
+      },
+      {
+        "file": ".cursor/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "5689225252238354455"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11104614097018910860"
+      },
+      {
+        "file": ".gemini/commands/monitor-ci.toml",
+        "hash": "7675741583071604597"
+      },
+      {
+        "file": ".gemini/settings.json",
+        "hash": "5921792102792576356"
+      },
+      {
+        "file": ".gemini/skills/link-workspace-packages/skill.md",
+        "hash": "15436383388001770446"
+      },
+      {
+        "file": ".gemini/skills/monitor-ci/skill.md",
+        "hash": "9468003408493328484"
+      },
+      {
+        "file": ".gemini/skills/nx-generate/skill.md",
+        "hash": "9325031674722245942"
+      },
+      {
+        "file": ".gemini/skills/nx-plugins/skill.md",
+        "hash": "17761452540263218782"
+      },
+      {
+        "file": ".gemini/skills/nx-run-tasks/skill.md",
+        "hash": "6310165843200780094"
+      },
+      {
+        "file": ".gemini/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "5689225252238354455"
+      },
+      {
+        "file": ".gemini/skills/nx-workspace/skill.md",
+        "hash": "15239321302212089310"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "3608132339408221366"
+      },
+      {
+        "file": ".github/agents/ci-monitor-subagent.agent.md",
+        "hash": "17271371206473447631"
+      },
+      {
+        "file": ".github/prompts/monitor-ci.prompt.md",
+        "hash": "14111579483359899130"
+      },
+      {
+        "file": ".github/skills/link-workspace-packages/SKILL.md",
+        "hash": "15436383388001770446"
+      },
+      {
+        "file": ".github/skills/monitor-ci/SKILL.md",
+        "hash": "9468003408493328484"
+      },
+      {
+        "file": ".github/skills/nx-generate/SKILL.md",
+        "hash": "9325031674722245942"
+      },
+      {
+        "file": ".github/skills/nx-plugins/SKILL.md",
+        "hash": "17761452540263218782"
+      },
+      {
+        "file": ".github/skills/nx-run-tasks/SKILL.md",
+        "hash": "6310165843200780094"
+      },
+      {
+        "file": ".github/skills/nx-workspace/SKILL.md",
+        "hash": "15239321302212089310"
+      },
+      {
+        "file": ".github/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "5689225252238354455"
+      },
+      {
+        "file": ".github/workflows/deploy.yml",
+        "hash": "16625223467376716768"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12208274968854838272"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "1168559600219334508"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11301648124127104610"
+      },
+      {
+        "file": ".opencode/agents/ci-monitor-subagent.md",
+        "hash": "13742394369726343905"
+      },
+      {
+        "file": ".opencode/commands/monitor-ci.md",
+        "hash": "4739986634017387526"
+      },
+      {
+        "file": ".opencode/skills/link-workspace-packages/SKILL.md",
+        "hash": "15436383388001770446"
+      },
+      {
+        "file": ".opencode/skills/monitor-ci/SKILL.md",
+        "hash": "9468003408493328484"
+      },
+      {
+        "file": ".opencode/skills/nx-generate/SKILL.md",
+        "hash": "9325031674722245942"
+      },
+      {
+        "file": ".opencode/skills/nx-plugins/SKILL.md",
+        "hash": "17761452540263218782"
+      },
+      {
+        "file": ".opencode/skills/nx-run-tasks/SKILL.md",
+        "hash": "6310165843200780094"
+      },
+      {
+        "file": ".opencode/skills/nx-workspace/SKILL.md",
+        "hash": "15239321302212089310"
+      },
+      {
+        "file": ".opencode/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "5689225252238354455"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "11397958448106177486"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "1659941541513042528"
+      },
+      {
+        "file": ".vscode/.gitignore",
+        "hash": "7720108774169396459"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1524639106490288394"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "3693179293707062853"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "3693179293707062853"
+      },
+      {
+        "file": "License.md",
+        "hash": "5673673109515815193"
+      },
+      {
+        "file": "README.md",
+        "hash": "1487556445305064546"
+      },
+      {
+        "file": "docs/.vitepress/config.ts",
+        "hash": "10331391540670263882"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "183502892882061152"
+      },
+      {
+        "file": "docs/components/charts.md",
+        "hash": "9629608445599593357"
+      },
+      {
+        "file": "docs/components/custom-components.md",
+        "hash": "8525403399385154253"
+      },
+      {
+        "file": "docs/components/data-tables.md",
+        "hash": "13583976260548719316"
+      },
+      {
+        "file": "docs/components/index.md",
+        "hash": "11586499039639332702"
+      },
+      {
+        "file": "docs/components/shadcn-ui.md",
+        "hash": "16254565260000240394"
+      },
+      {
+        "file": "docs/dev.sh",
+        "hash": "14196144573572752854"
+      },
+      {
+        "file": "docs/guide/choosing-framework.md",
+        "hash": "11285233166574866354"
+      },
+      {
+        "file": "docs/guide/contributing.md",
+        "hash": "4258300044885641833"
+      },
+      {
+        "file": "docs/guide/features.md",
+        "hash": "10445012002615290444"
+      },
+      {
+        "file": "docs/guide/index.md",
+        "hash": "10092573712592574591"
+      },
+      {
+        "file": "docs/guide/installation.md",
+        "hash": "11647552984095152986"
+      },
+      {
+        "file": "docs/guide/license.md",
+        "hash": "2855768808384527534"
+      },
+      {
+        "file": "docs/guide/project-structure.md",
+        "hash": "12162920006916717245"
+      },
+      {
+        "file": "docs/guide/support.md",
+        "hash": "4802395954655937162"
+      },
+      {
+        "file": "docs/guide/tech-stack.md",
+        "hash": "6506950519520634403"
+      },
+      {
+        "file": "docs/guide/theme-system.md",
+        "hash": "12178270882673767119"
+      },
+      {
+        "file": "docs/index.md",
+        "hash": "16254151809252315588"
+      },
+      {
+        "file": "docs/nextjs/build-deploy.md",
+        "hash": "3781489949619074996"
+      },
+      {
+        "file": "docs/nextjs/development.md",
+        "hash": "826345934325835978"
+      },
+      {
+        "file": "docs/nextjs/index.md",
+        "hash": "7146534498455671683"
+      },
+      {
+        "file": "docs/nextjs/quick-start.md",
+        "hash": "11662316816754625722"
+      },
+      {
+        "file": "docs/nextjs/troubleshooting.md",
+        "hash": "883900389961522644"
+      },
+      {
+        "file": "docs/package.json",
+        "hash": "13886314931009329313"
+      },
+      {
+        "file": "docs/public/favicon.png",
+        "hash": "14160345485664289756"
+      },
+      {
+        "file": "docs/public/hero.png",
+        "hash": "10249174019864367130"
+      },
+      {
+        "file": "docs/public/logo.svg",
+        "hash": "1864987530901137325"
+      },
+      {
+        "file": "docs/theme-customizer/configuration.md",
+        "hash": "1945234981151223674"
+      },
+      {
+        "file": "docs/theme-customizer/custom-themes.md",
+        "hash": "10922186832953896616"
+      },
+      {
+        "file": "docs/theme-customizer/index.md",
+        "hash": "2825876337914827963"
+      },
+      {
+        "file": "docs/theme-customizer/removing-customizer.md",
+        "hash": "7731588071009268221"
+      },
+      {
+        "file": "docs/vite/build-deploy.md",
+        "hash": "3781730624245141348"
+      },
+      {
+        "file": "docs/vite/development.md",
+        "hash": "15028019140974385002"
+      },
+      {
+        "file": "docs/vite/index.md",
+        "hash": "4476539840669585355"
+      },
+      {
+        "file": "docs/vite/quick-start.md",
+        "hash": "369359853356431648"
+      },
+      {
+        "file": "docs/vite/troubleshooting.md",
+        "hash": "2251102506521608598"
+      },
+      {
+        "file": "nextjs-version/.gitignore",
+        "hash": "1867017717006394117"
+      },
+      {
+        "file": "nextjs-version/components.json",
+        "hash": "7593453266124896171"
+      },
+      {
+        "file": "nextjs-version/eslint.config.mjs",
+        "hash": "11349616980964601162"
+      },
+      {
+        "file": "nextjs-version/next.config.ts",
+        "hash": "1967913130706855761"
+      },
+      {
+        "file": "nextjs-version/package.json",
+        "hash": "15522898589442956821"
+      },
+      {
+        "file": "nextjs-version/pnpm-lock.yaml",
+        "hash": "15296906135655152823"
+      },
+      {
+        "file": "nextjs-version/postcss.config.mjs",
+        "hash": "5780094307482666535"
+      },
+      {
+        "file": "nextjs-version/public/apps.png",
+        "hash": "10150095664406584231"
+      },
+      {
+        "file": "nextjs-version/public/customizer.png",
+        "hash": "10930854562848078478"
+      },
+      {
+        "file": "nextjs-version/public/dashboard-dark.png",
+        "hash": "757975209620152228"
+      },
+      {
+        "file": "nextjs-version/public/dashboard-light.png",
+        "hash": "4645619122718094219"
+      },
+      {
+        "file": "nextjs-version/public/dashboard.png",
+        "hash": "9396184320905234473"
+      },
+      {
+        "file": "nextjs-version/public/favicon-dark.png",
+        "hash": "807942396757455720"
+      },
+      {
+        "file": "nextjs-version/public/favicon.png",
+        "hash": "14160345485664289756"
+      },
+      {
+        "file": "nextjs-version/public/feature-1-dark.png",
+        "hash": "5126093668662429020"
+      },
+      {
+        "file": "nextjs-version/public/feature-1-light.png",
+        "hash": "9358718565914625957"
+      },
+      {
+        "file": "nextjs-version/public/feature-2-dark.png",
+        "hash": "10889226241571564744"
+      },
+      {
+        "file": "nextjs-version/public/feature-2-light.png",
+        "hash": "15884660270555551234"
+      },
+      {
+        "file": "nextjs-version/public/file.svg",
+        "hash": "15617830351863523835"
+      },
+      {
+        "file": "nextjs-version/public/globe.svg",
+        "hash": "9134466864871335697"
+      },
+      {
+        "file": "nextjs-version/public/hero-images-container.png",
+        "hash": "1923783898032579519"
+      },
+      {
+        "file": "nextjs-version/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "nextjs-version/public/vercel.svg",
+        "hash": "3007623926711696394"
+      },
+      {
+        "file": "nextjs-version/public/window.svg",
+        "hash": "16677869292061012332"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/forbidden/components/forbidden-error.tsx",
+        "hash": "16732023466727741228"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/forbidden/page.tsx",
+        "hash": "15294420736039108319"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/internal-server-error/components/internal-server-error.tsx",
+        "hash": "11338165610701976996"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/internal-server-error/page.tsx",
+        "hash": "13167103066138607875"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/not-found/components/not-found-error.tsx",
+        "hash": "9205614129731398207"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/not-found/page.tsx",
+        "hash": "2079747659721565639"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/unauthorized/components/unauthorized-error.tsx",
+        "hash": "14716929108289702673"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/unauthorized/page.tsx",
+        "hash": "15776595221661637250"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/under-maintenance/components/under-maintenance-error.tsx",
+        "hash": "14980592877643865506"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/errors/under-maintenance/page.tsx",
+        "hash": "14939113814928400768"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/forgot-password-2/components/forgot-password-form-2.tsx",
+        "hash": "12520483944122370745"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/forgot-password-2/page.tsx",
+        "hash": "10347571041673136626"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/forgot-password-3/components/forgot-password-form-3.tsx",
+        "hash": "2092609610921309352"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/forgot-password-3/page.tsx",
+        "hash": "1429724479967317660"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/forgot-password/components/forgot-password-form-1.tsx",
+        "hash": "15517833006533406311"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/forgot-password/page.tsx",
+        "hash": "6637349873797969853"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/layout.tsx",
+        "hash": "2964196272695379441"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-in-2/components/login-form-2.tsx",
+        "hash": "16781728600140039112"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-in-2/page.tsx",
+        "hash": "9316528282426813271"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-in-3/components/login-form-3.tsx",
+        "hash": "1066433455533329810"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-in-3/page.tsx",
+        "hash": "15531047087426154907"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-in/components/login-form-1.tsx",
+        "hash": "1337674172229303851"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-in/page.tsx",
+        "hash": "13923175559399492565"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-up-2/components/signup-form-2.tsx",
+        "hash": "9539761460702075994"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-up-2/page.tsx",
+        "hash": "2998172827274519478"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-up-3/components/signup-form-3.tsx",
+        "hash": "11585281225450547383"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-up-3/page.tsx",
+        "hash": "7496278887396421053"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-up/components/signup-form-1.tsx",
+        "hash": "14769950869790334960"
+      },
+      {
+        "file": "nextjs-version/src/app/(auth)/sign-up/page.tsx",
+        "hash": "13091972558316384956"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/calendar-main.tsx",
+        "hash": "5091801524443040209"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/calendar-sidebar.tsx",
+        "hash": "12728410122073201048"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/calendar-unified.tsx",
+        "hash": "15405471748124183674"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/calendar.tsx",
+        "hash": "1803415111222805650"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/calendars.tsx",
+        "hash": "12989983971612306679"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/date-picker.tsx",
+        "hash": "7122862123372662089"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/event-form.tsx",
+        "hash": "5570643277618095346"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/components/quick-actions.tsx",
+        "hash": "8026735692461927070"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/data.ts",
+        "hash": "8197510575990726368"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/data/calendars.json",
+        "hash": "15523187273885830051"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/data/event-dates.json",
+        "hash": "18234939995611389917"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/data/events.json",
+        "hash": "17367459680716176396"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/page.tsx",
+        "hash": "12253097581064337267"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/types.ts",
+        "hash": "12749575033222385761"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/calendar/use-calendar.ts",
+        "hash": "11476362960714619461"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/components/chat-header.tsx",
+        "hash": "3839624134908397666"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/components/chat.tsx",
+        "hash": "6502017862722572606"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/components/conversation-list-new.tsx",
+        "hash": "4285064379694335793"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/components/conversation-list.tsx",
+        "hash": "6249159564125336061"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/components/message-input.tsx",
+        "hash": "2482885333097174498"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/components/message-list.tsx",
+        "hash": "15518547640902993989"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/data/conversations.json",
+        "hash": "8895785389091066630"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/data/messages.json",
+        "hash": "2962954810399704951"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/data/users.json",
+        "hash": "958773838707022660"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/page.tsx",
+        "hash": "11815458422553710639"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/chat/use-chat.ts",
+        "hash": "13023987605065443381"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/customer-insights.tsx",
+        "hash": "1510573595148839737"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/dashboard-header.tsx",
+        "hash": "3707919028261797453"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/metrics-overview.tsx",
+        "hash": "8298974970997015065"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/quick-actions.tsx",
+        "hash": "9111150747519825126"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/recent-transactions.tsx",
+        "hash": "2325957943139158749"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/revenue-breakdown.tsx",
+        "hash": "4950267248147210513"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/sales-chart.tsx",
+        "hash": "8220702234324281517"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/components/top-products.tsx",
+        "hash": "8047898391953217870"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/data/dashboard-data.json",
+        "hash": "2920282376638978833"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard-2/page.tsx",
+        "hash": "18147369825116445947"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/components/chart-area-interactive.tsx",
+        "hash": "5315120601561274163"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/components/data-table.tsx",
+        "hash": "6146663277659198617"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/components/section-cards.tsx",
+        "hash": "18318327768004534130"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/data/data.json",
+        "hash": "7436842348957011237"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/data/focus-documents-data.json",
+        "hash": "15327214182208793883"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/data/key-personnel-data.json",
+        "hash": "6365632351222463966"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/data/past-performance-data.json",
+        "hash": "7984265743040099674"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/page.tsx",
+        "hash": "17564162386361242187"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/dashboard/schemas/task-schema.ts",
+        "hash": "9451065953261172"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/faqs/components/faq-list.tsx",
+        "hash": "15473173586529599522"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/faqs/components/features-grid.tsx",
+        "hash": "6789769694487295047"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/faqs/data/categories.json",
+        "hash": "2048310157173078130"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/faqs/data/faqs.json",
+        "hash": "11250518776351763152"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/faqs/data/features.json",
+        "hash": "9131894127298290340"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/faqs/page.tsx",
+        "hash": "15836165014924813167"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/layout.tsx",
+        "hash": "10379908180092046180"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/components/account-switcher.tsx",
+        "hash": "4296980260323924635"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/components/mail-display.tsx",
+        "hash": "12166381577630745046"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/components/mail-list.tsx",
+        "hash": "9009180681751745602"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/components/mail.tsx",
+        "hash": "16667389513113204879"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/components/nav.tsx",
+        "hash": "15949307533430745328"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/data.tsx",
+        "hash": "2666001928532431733"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/index.tsx",
+        "hash": "6192242193976304737"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/page.tsx",
+        "hash": "2983122485832579615"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/mail/use-mail.ts",
+        "hash": "3274140143271567958"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/pricing/components/faq-section.tsx",
+        "hash": "5668207240799925547"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/pricing/components/features-grid.tsx",
+        "hash": "17335604450693203670"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/pricing/data/faqs.json",
+        "hash": "9198147020069239693"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/pricing/data/features.json",
+        "hash": "12042162127466341980"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/pricing/page.tsx",
+        "hash": "4088216734970125506"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/account/page.tsx",
+        "hash": "12935428282087011682"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/appearance/page.tsx",
+        "hash": "2800291876987307194"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/billing/components/billing-history-card.tsx",
+        "hash": "12911451316044912140"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/billing/components/current-plan-card.tsx",
+        "hash": "7472737417230227941"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/billing/data/billing-history.json",
+        "hash": "5825551259619299376"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/billing/data/current-plan.json",
+        "hash": "7746370730166730088"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/billing/page.tsx",
+        "hash": "6126803163023591901"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/connections/page.tsx",
+        "hash": "11030546486701287724"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/notifications/page.tsx",
+        "hash": "17343831085623343177"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/settings/user/page.tsx",
+        "hash": "18295275117592219927"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/add-task-modal.tsx",
+        "hash": "2558415869712235742"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/columns.tsx",
+        "hash": "12107825584115037124"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table-column-header.tsx",
+        "hash": "18050337601940033700"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table-faceted-filter.tsx",
+        "hash": "1101752559379126628"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table-pagination.tsx",
+        "hash": "15517969377552465652"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table-row-actions.tsx",
+        "hash": "1058879208748089496"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table-toolbar.tsx",
+        "hash": "8920064156665816093"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table-view-options.tsx",
+        "hash": "4109754393147541008"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/data-table.tsx",
+        "hash": "16531765820535027327"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/components/user-nav.tsx",
+        "hash": "7955327074788592017"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/data/data.tsx",
+        "hash": "9608082112911126996"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/data/schema.ts",
+        "hash": "15177744733579953406"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/data/tasks.json",
+        "hash": "411401023699255699"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/tasks/page.tsx",
+        "hash": "16122670450197315610"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/users/components/data-table.tsx",
+        "hash": "4592533236668356527"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/users/components/stat-cards.tsx",
+        "hash": "6539617677135345682"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/users/components/user-form-dialog.tsx",
+        "hash": "17560538610155702439"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/users/data.json",
+        "hash": "4953181532208341302"
+      },
+      {
+        "file": "nextjs-version/src/app/(dashboard)/users/page.tsx",
+        "hash": "7181846937785425240"
+      },
+      {
+        "file": "nextjs-version/src/app/favicon.ico",
+        "hash": "4558924966460466137"
+      },
+      {
+        "file": "nextjs-version/src/app/globals.css",
+        "hash": "9205893465589825210"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/about-section.tsx",
+        "hash": "11512829883501829807"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/blog-section.tsx",
+        "hash": "15409265856668692592"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/contact-section.tsx",
+        "hash": "17172039197572924503"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/cta-section.tsx",
+        "hash": "7924770358895820948"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/faq-section.tsx",
+        "hash": "17808797710130210401"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/features-section.tsx",
+        "hash": "13169154180717938959"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/footer.tsx",
+        "hash": "2423874233966717142"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/hero-section.tsx",
+        "hash": "1564617960696220914"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/landing-theme-customizer.tsx",
+        "hash": "11977464569835758027"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/logo-carousel.tsx",
+        "hash": "12745455646788303544"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/navbar.tsx",
+        "hash": "8124804481911540244"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/pricing-section.tsx",
+        "hash": "1286074114142964954"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/stats-section.tsx",
+        "hash": "1765894033235547313"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/team-section.tsx",
+        "hash": "17571690072143666819"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/components/testimonials-section.tsx",
+        "hash": "11420169630444282506"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/landing-page-content.tsx",
+        "hash": "17190779361410510142"
+      },
+      {
+        "file": "nextjs-version/src/app/landing/page.tsx",
+        "hash": "17352695739119066360"
+      },
+      {
+        "file": "nextjs-version/src/app/layout.tsx",
+        "hash": "10530868514779848012"
+      },
+      {
+        "file": "nextjs-version/src/app/loading.tsx",
+        "hash": "17464578555923198530"
+      },
+      {
+        "file": "nextjs-version/src/app/not-found.tsx",
+        "hash": "16190759667076485238"
+      },
+      {
+        "file": "nextjs-version/src/app/page.tsx",
+        "hash": "11004003208946111220"
+      },
+      {
+        "file": "nextjs-version/src/assets/react.svg",
+        "hash": "16069471864800376455"
+      },
+      {
+        "file": "nextjs-version/src/components/app-sidebar.tsx",
+        "hash": "17357835274873908625"
+      },
+      {
+        "file": "nextjs-version/src/components/color-picker.tsx",
+        "hash": "15160463845204904266"
+      },
+      {
+        "file": "nextjs-version/src/components/command-search.tsx",
+        "hash": "1823263448574207770"
+      },
+      {
+        "file": "nextjs-version/src/components/dot-pattern.tsx",
+        "hash": "6160669881432486511"
+      },
+      {
+        "file": "nextjs-version/src/components/dynamic-imports.ts",
+        "hash": "17182810973382362655"
+      },
+      {
+        "file": "nextjs-version/src/components/image-3d.tsx",
+        "hash": "6723184295012353665"
+      },
+      {
+        "file": "nextjs-version/src/components/landing/mega-menu.tsx",
+        "hash": "3040601953507204135"
+      },
+      {
+        "file": "nextjs-version/src/components/layouts/base-layout.tsx",
+        "hash": "8143274103364949814"
+      },
+      {
+        "file": "nextjs-version/src/components/logo.tsx",
+        "hash": "1882350300190551302"
+      },
+      {
+        "file": "nextjs-version/src/components/mode-toggle.tsx",
+        "hash": "7063826659152642706"
+      },
+      {
+        "file": "nextjs-version/src/components/nav-main.tsx",
+        "hash": "15499186002325307669"
+      },
+      {
+        "file": "nextjs-version/src/components/nav-secondary.tsx",
+        "hash": "31729424065654021"
+      },
+      {
+        "file": "nextjs-version/src/components/nav-user.tsx",
+        "hash": "34800569478288202"
+      },
+      {
+        "file": "nextjs-version/src/components/pricing-plans.tsx",
+        "hash": "7771747559096426107"
+      },
+      {
+        "file": "nextjs-version/src/components/sidebar-notification.tsx",
+        "hash": "18287131695191388536"
+      },
+      {
+        "file": "nextjs-version/src/components/site-footer.tsx",
+        "hash": "463420413593465359"
+      },
+      {
+        "file": "nextjs-version/src/components/site-header.tsx",
+        "hash": "8538364060923636183"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer.tsx",
+        "hash": "13797107169106053262"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer/circular-transition.css",
+        "hash": "12978138178612532515"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer/import-modal.tsx",
+        "hash": "13701047278280025920"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer/index.tsx",
+        "hash": "606703046815466228"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer/layout-tab.tsx",
+        "hash": "12719781382116206343"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer/main.tsx",
+        "hash": "6695553757048153950"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-customizer/theme-tab.tsx",
+        "hash": "17220324516613535272"
+      },
+      {
+        "file": "nextjs-version/src/components/theme-provider.tsx",
+        "hash": "11074935534531760383"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/accordion.tsx",
+        "hash": "11809122693791108423"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/avatar.tsx",
+        "hash": "7452765948676719257"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/badge.tsx",
+        "hash": "10963678808027697072"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/breadcrumb.tsx",
+        "hash": "4542918030053654785"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/button.tsx",
+        "hash": "10225437513930193679"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/calendar.tsx",
+        "hash": "14094336550582761294"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/card-decorator.tsx",
+        "hash": "14700314026995655857"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/card.tsx",
+        "hash": "12626163197687957168"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/chart.tsx",
+        "hash": "5585399882073485368"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/checkbox.tsx",
+        "hash": "17824499335902137134"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/collapsible.tsx",
+        "hash": "17074057275547707461"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/command.tsx",
+        "hash": "14463411919929973577"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/dialog.tsx",
+        "hash": "3787619525081248836"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/drawer.tsx",
+        "hash": "2074618829314787632"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/dropdown-menu.tsx",
+        "hash": "14323700809136055032"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/form.tsx",
+        "hash": "3200697611223940984"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/hover-card.tsx",
+        "hash": "3546213997930483081"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/input.tsx",
+        "hash": "5100320126020590845"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/label.tsx",
+        "hash": "4362919960382970735"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/loading-spinner.tsx",
+        "hash": "10288488523370905931"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/navigation-menu.tsx",
+        "hash": "1463801237709690436"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/popover.tsx",
+        "hash": "2123900949476297986"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/progress.tsx",
+        "hash": "8046326627792569033"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/radio-group.tsx",
+        "hash": "9122487715209743435"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/resizable.tsx",
+        "hash": "16715976187353444410"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/scroll-area.tsx",
+        "hash": "13077458416230608978"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/select.tsx",
+        "hash": "11533529443122368476"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/separator.tsx",
+        "hash": "17968105264491771283"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/sheet.tsx",
+        "hash": "12163869745913107582"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/sidebar.tsx",
+        "hash": "4369347410596821244"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/skeleton.tsx",
+        "hash": "16279548040846261523"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/sonner.tsx",
+        "hash": "9121351327972353123"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/switch.tsx",
+        "hash": "2715221984545660021"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/table.tsx",
+        "hash": "9236219364163009886"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/tabs.tsx",
+        "hash": "14375166271492042760"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/textarea.tsx",
+        "hash": "3895507706129911610"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/toggle-group.tsx",
+        "hash": "15943558637507000692"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/toggle.tsx",
+        "hash": "17525608547397603190"
+      },
+      {
+        "file": "nextjs-version/src/components/ui/tooltip.tsx",
+        "hash": "6287152514570869404"
+      },
+      {
+        "file": "nextjs-version/src/components/upgrade-to-pro-button.tsx",
+        "hash": "9080557109265212872"
+      },
+      {
+        "file": "nextjs-version/src/config/theme-customizer-constants.ts",
+        "hash": "11845708184252525377"
+      },
+      {
+        "file": "nextjs-version/src/config/theme-data.ts",
+        "hash": "1499546345287188940"
+      },
+      {
+        "file": "nextjs-version/src/contexts/sidebar-context.tsx",
+        "hash": "13449789881637226355"
+      },
+      {
+        "file": "nextjs-version/src/contexts/theme-context.ts",
+        "hash": "5050368128152129134"
+      },
+      {
+        "file": "nextjs-version/src/hooks/use-circular-transition.ts",
+        "hash": "4858298178794348962"
+      },
+      {
+        "file": "nextjs-version/src/hooks/use-fullscreen.ts",
+        "hash": "5792776653132586881"
+      },
+      {
+        "file": "nextjs-version/src/hooks/use-mobile.ts",
+        "hash": "10291818206907168398"
+      },
+      {
+        "file": "nextjs-version/src/hooks/use-sidebar-config.ts",
+        "hash": "8296871572521746641"
+      },
+      {
+        "file": "nextjs-version/src/hooks/use-theme-manager.ts",
+        "hash": "17870173000070837688"
+      },
+      {
+        "file": "nextjs-version/src/hooks/use-theme.ts",
+        "hash": "14365741280089239104"
+      },
+      {
+        "file": "nextjs-version/src/lib/fonts.ts",
+        "hash": "15259314926963656008"
+      },
+      {
+        "file": "nextjs-version/src/lib/utils.ts",
+        "hash": "6483145186850064023"
+      },
+      {
+        "file": "nextjs-version/src/middleware.ts",
+        "hash": "14426043612421696212"
+      },
+      {
+        "file": "nextjs-version/src/types/theme-customizer.ts",
+        "hash": "16053763503966228986"
+      },
+      {
+        "file": "nextjs-version/src/types/theme.ts",
+        "hash": "17072196602920092585"
+      },
+      {
+        "file": "nextjs-version/src/utils/shadcn-ui-theme-presets.ts",
+        "hash": "6484786719330090192"
+      },
+      {
+        "file": "nextjs-version/src/utils/tweakcn-theme-presets.ts",
+        "hash": "7912629309007642025"
+      },
+      {
+        "file": "nextjs-version/tsconfig.json",
+        "hash": "5821345796948921655"
+      },
+      {
+        "file": "nx",
+        "hash": "8108031838021157773"
+      },
+      {
+        "file": "nx.bat",
+        "hash": "16119536321561623970"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4022685557708440204"
+      },
+      {
+        "file": "opencode.json",
+        "hash": "16592868722877903603"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11538612407343263958"
+      },
+      {
+        "file": "vite-version/.env.example",
+        "hash": "13070264100147775198"
+      },
+      {
+        "file": "vite-version/components.json",
+        "hash": "7593453266124896171"
+      },
+      {
+        "file": "vite-version/eslint.config.js",
+        "hash": "142212017292357276"
+      },
+      {
+        "file": "vite-version/index.html",
+        "hash": "13038639073075024033"
+      },
+      {
+        "file": "vite-version/package.json",
+        "hash": "16443894996192828657"
+      },
+      {
+        "file": "vite-version/pnpm-lock.yaml",
+        "hash": "13267357102627390946"
+      },
+      {
+        "file": "vite-version/public/apps.png",
+        "hash": "10150095664406584231"
+      },
+      {
+        "file": "vite-version/public/customizer.png",
+        "hash": "10930854562848078478"
+      },
+      {
+        "file": "vite-version/public/dashboard-dark.png",
+        "hash": "757975209620152228"
+      },
+      {
+        "file": "vite-version/public/dashboard-light.png",
+        "hash": "4645619122718094219"
+      },
+      {
+        "file": "vite-version/public/dashboard.png",
+        "hash": "9396184320905234473"
+      },
+      {
+        "file": "vite-version/public/favicon-dark.png",
+        "hash": "807942396757455720"
+      },
+      {
+        "file": "vite-version/public/favicon.png",
+        "hash": "14160345485664289756"
+      },
+      {
+        "file": "vite-version/public/feature-1-dark.png",
+        "hash": "5126093668662429020"
+      },
+      {
+        "file": "vite-version/public/feature-1-light.png",
+        "hash": "9358718565914625957"
+      },
+      {
+        "file": "vite-version/public/feature-2-dark.png",
+        "hash": "10889226241571564744"
+      },
+      {
+        "file": "vite-version/public/feature-2-light.png",
+        "hash": "15884660270555551234"
+      },
+      {
+        "file": "vite-version/public/hero-images-container.png",
+        "hash": "1923783898032579519"
+      },
+      {
+        "file": "vite-version/public/og-image.png",
+        "hash": "18440481165922803175"
+      },
+      {
+        "file": "vite-version/public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "vite-version/src/App.css",
+        "hash": "3739391659270974612"
+      },
+      {
+        "file": "vite-version/src/App.tsx",
+        "hash": "2826441590260175640"
+      },
+      {
+        "file": "vite-version/src/app/auth/forgot-password-2/components/forgot-password-form-2.tsx",
+        "hash": "2315373260664033019"
+      },
+      {
+        "file": "vite-version/src/app/auth/forgot-password-2/page.tsx",
+        "hash": "16991721606219526275"
+      },
+      {
+        "file": "vite-version/src/app/auth/forgot-password-3/components/forgot-password-form-3.tsx",
+        "hash": "99986851282051473"
+      },
+      {
+        "file": "vite-version/src/app/auth/forgot-password-3/page.tsx",
+        "hash": "1429724479967317660"
+      },
+      {
+        "file": "vite-version/src/app/auth/forgot-password/components/forgot-password-form-1.tsx",
+        "hash": "1567356505625353630"
+      },
+      {
+        "file": "vite-version/src/app/auth/forgot-password/page.tsx",
+        "hash": "16526686112137267684"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-in-2/components/login-form-2.tsx",
+        "hash": "12494703123857312153"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-in-2/page.tsx",
+        "hash": "18180295627903343426"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-in-3/components/login-form-3.tsx",
+        "hash": "5122382867337331687"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-in-3/page.tsx",
+        "hash": "15531047087426154907"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-in/components/login-form-1.tsx",
+        "hash": "6332027784964353118"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-in/page.tsx",
+        "hash": "9874178039955542524"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-up-2/components/signup-form-2.tsx",
+        "hash": "17369399805935787994"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-up-2/page.tsx",
+        "hash": "17573900032458946341"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-up-3/components/signup-form-3.tsx",
+        "hash": "1082346595927150345"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-up-3/page.tsx",
+        "hash": "7496278887396421053"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-up/components/signup-form-1.tsx",
+        "hash": "12188040744208259367"
+      },
+      {
+        "file": "vite-version/src/app/auth/sign-up/page.tsx",
+        "hash": "922314111168990438"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/calendar-main.tsx",
+        "hash": "5091801524443040209"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/calendar-sidebar.tsx",
+        "hash": "12728410122073201048"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/calendar-unified.tsx",
+        "hash": "15405471748124183674"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/calendar.tsx",
+        "hash": "1803415111222805650"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/calendars.tsx",
+        "hash": "12989983971612306679"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/date-picker.tsx",
+        "hash": "7122862123372662089"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/event-form.tsx",
+        "hash": "5570643277618095346"
+      },
+      {
+        "file": "vite-version/src/app/calendar/components/quick-actions.tsx",
+        "hash": "8026735692461927070"
+      },
+      {
+        "file": "vite-version/src/app/calendar/data.ts",
+        "hash": "8197510575990726368"
+      },
+      {
+        "file": "vite-version/src/app/calendar/data/calendars.json",
+        "hash": "15523187273885830051"
+      },
+      {
+        "file": "vite-version/src/app/calendar/data/event-dates.json",
+        "hash": "18234939995611389917"
+      },
+      {
+        "file": "vite-version/src/app/calendar/data/events.json",
+        "hash": "17367459680716176396"
+      },
+      {
+        "file": "vite-version/src/app/calendar/page.tsx",
+        "hash": "5177658728572617403"
+      },
+      {
+        "file": "vite-version/src/app/calendar/types.ts",
+        "hash": "12749575033222385761"
+      },
+      {
+        "file": "vite-version/src/app/calendar/use-calendar.ts",
+        "hash": "11476362960714619461"
+      },
+      {
+        "file": "vite-version/src/app/chat/components/chat-header.tsx",
+        "hash": "17042685862174394895"
+      },
+      {
+        "file": "vite-version/src/app/chat/components/chat.tsx",
+        "hash": "4106392706513220062"
+      },
+      {
+        "file": "vite-version/src/app/chat/components/conversation-list-new.tsx",
+        "hash": "10327985645364639947"
+      },
+      {
+        "file": "vite-version/src/app/chat/components/conversation-list.tsx",
+        "hash": "15312412705274147647"
+      },
+      {
+        "file": "vite-version/src/app/chat/components/message-input.tsx",
+        "hash": "2482885333097174498"
+      },
+      {
+        "file": "vite-version/src/app/chat/components/message-list.tsx",
+        "hash": "12531934012067274777"
+      },
+      {
+        "file": "vite-version/src/app/chat/data/conversations.json",
+        "hash": "4769589361368938287"
+      },
+      {
+        "file": "vite-version/src/app/chat/data/messages.json",
+        "hash": "2962954810399704951"
+      },
+      {
+        "file": "vite-version/src/app/chat/data/users.json",
+        "hash": "3679989170201664142"
+      },
+      {
+        "file": "vite-version/src/app/chat/page.tsx",
+        "hash": "18102853800239413570"
+      },
+      {
+        "file": "vite-version/src/app/chat/use-chat.ts",
+        "hash": "13023987605065443381"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/customer-insights.tsx",
+        "hash": "1510573595148839737"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/dashboard-header.tsx",
+        "hash": "3707919028261797453"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/metrics-overview.tsx",
+        "hash": "8298974970997015065"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/quick-actions.tsx",
+        "hash": "9111150747519825126"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/recent-transactions.tsx",
+        "hash": "1049500241184257803"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/revenue-breakdown.tsx",
+        "hash": "16360083671968941567"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/sales-chart.tsx",
+        "hash": "8220702234324281517"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/components/top-products.tsx",
+        "hash": "8047898391953217870"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/data/dashboard-data.json",
+        "hash": "2920282376638978833"
+      },
+      {
+        "file": "vite-version/src/app/dashboard-2/page.tsx",
+        "hash": "11389504031772226331"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/components/chart-area-interactive.tsx",
+        "hash": "5315120601561274163"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/components/data-table.tsx",
+        "hash": "6146663277659198617"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/components/section-cards.tsx",
+        "hash": "18318327768004534130"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/data/data.json",
+        "hash": "7436842348957011237"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/data/focus-documents-data.json",
+        "hash": "15327214182208793883"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/data/key-personnel-data.json",
+        "hash": "6365632351222463966"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/data/past-performance-data.json",
+        "hash": "7984265743040099674"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/page.tsx",
+        "hash": "15833077016375645002"
+      },
+      {
+        "file": "vite-version/src/app/dashboard/schemas/task-schema.ts",
+        "hash": "9451065953261172"
+      },
+      {
+        "file": "vite-version/src/app/errors/forbidden/components/forbidden-error.tsx",
+        "hash": "9231255792517197589"
+      },
+      {
+        "file": "vite-version/src/app/errors/forbidden/page.tsx",
+        "hash": "15294420736039108319"
+      },
+      {
+        "file": "vite-version/src/app/errors/internal-server-error/components/internal-server-error.tsx",
+        "hash": "11272875933254995363"
+      },
+      {
+        "file": "vite-version/src/app/errors/internal-server-error/page.tsx",
+        "hash": "13167103066138607875"
+      },
+      {
+        "file": "vite-version/src/app/errors/not-found/components/not-found-error.tsx",
+        "hash": "785397594392374238"
+      },
+      {
+        "file": "vite-version/src/app/errors/not-found/page.tsx",
+        "hash": "2079747659721565639"
+      },
+      {
+        "file": "vite-version/src/app/errors/unauthorized/components/unauthorized-error.tsx",
+        "hash": "16499623759833000149"
+      },
+      {
+        "file": "vite-version/src/app/errors/unauthorized/page.tsx",
+        "hash": "15776595221661637250"
+      },
+      {
+        "file": "vite-version/src/app/errors/under-maintenance/components/under-maintenance-error.tsx",
+        "hash": "18374252637147629331"
+      },
+      {
+        "file": "vite-version/src/app/errors/under-maintenance/page.tsx",
+        "hash": "14939113814928400768"
+      },
+      {
+        "file": "vite-version/src/app/faqs/components/faq-list.tsx",
+        "hash": "15473173586529599522"
+      },
+      {
+        "file": "vite-version/src/app/faqs/components/features-grid.tsx",
+        "hash": "6789769694487295047"
+      },
+      {
+        "file": "vite-version/src/app/faqs/data/categories.json",
+        "hash": "2048310157173078130"
+      },
+      {
+        "file": "vite-version/src/app/faqs/data/faqs.json",
+        "hash": "11250518776351763152"
+      },
+      {
+        "file": "vite-version/src/app/faqs/data/features.json",
+        "hash": "9131894127298290340"
+      },
+      {
+        "file": "vite-version/src/app/faqs/page.tsx",
+        "hash": "3676770030237812624"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/about-section.tsx",
+        "hash": "8704305062219059182"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/blog-section.tsx",
+        "hash": "14758988457786925500"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/contact-section.tsx",
+        "hash": "17172039197572924503"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/cta-section.tsx",
+        "hash": "6721427313342730807"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/faq-section.tsx",
+        "hash": "14276626776586514233"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/features-section.tsx",
+        "hash": "2602461628122524643"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/footer.tsx",
+        "hash": "2423874233966717142"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/hero-section.tsx",
+        "hash": "13407014724678487856"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/landing-theme-customizer.tsx",
+        "hash": "11977464569835758027"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/logo-carousel.tsx",
+        "hash": "12745455646788303544"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/navbar.tsx",
+        "hash": "12699997894844705265"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/pricing-section.tsx",
+        "hash": "1286074114142964954"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/stats-section.tsx",
+        "hash": "1765894033235547313"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/team-section.tsx",
+        "hash": "17571690072143666819"
+      },
+      {
+        "file": "vite-version/src/app/landing/components/testimonials-section.tsx",
+        "hash": "11420169630444282506"
+      },
+      {
+        "file": "vite-version/src/app/landing/page.tsx",
+        "hash": "12513633970236315088"
+      },
+      {
+        "file": "vite-version/src/app/mail/components/account-switcher.tsx",
+        "hash": "4296980260323924635"
+      },
+      {
+        "file": "vite-version/src/app/mail/components/mail-display.tsx",
+        "hash": "14804792999052273151"
+      },
+      {
+        "file": "vite-version/src/app/mail/components/mail-list.tsx",
+        "hash": "15560364924955627988"
+      },
+      {
+        "file": "vite-version/src/app/mail/components/mail.tsx",
+        "hash": "3088101648072074630"
+      },
+      {
+        "file": "vite-version/src/app/mail/components/nav.tsx",
+        "hash": "15949307533430745328"
+      },
+      {
+        "file": "vite-version/src/app/mail/data.tsx",
+        "hash": "2666001928532431733"
+      },
+      {
+        "file": "vite-version/src/app/mail/index.tsx",
+        "hash": "59705691341045313"
+      },
+      {
+        "file": "vite-version/src/app/mail/page.tsx",
+        "hash": "12227280320334899702"
+      },
+      {
+        "file": "vite-version/src/app/mail/use-mail.ts",
+        "hash": "5223054027685072103"
+      },
+      {
+        "file": "vite-version/src/app/pricing/components/faq-section.tsx",
+        "hash": "5668207240799925547"
+      },
+      {
+        "file": "vite-version/src/app/pricing/components/features-grid.tsx",
+        "hash": "17335604450693203670"
+      },
+      {
+        "file": "vite-version/src/app/pricing/data/faqs.json",
+        "hash": "9198147020069239693"
+      },
+      {
+        "file": "vite-version/src/app/pricing/data/features.json",
+        "hash": "12042162127466341980"
+      },
+      {
+        "file": "vite-version/src/app/pricing/page.tsx",
+        "hash": "10630404183726352453"
+      },
+      {
+        "file": "vite-version/src/app/settings/account/page.tsx",
+        "hash": "13698099206141751631"
+      },
+      {
+        "file": "vite-version/src/app/settings/appearance/page.tsx",
+        "hash": "13429948008556894683"
+      },
+      {
+        "file": "vite-version/src/app/settings/billing/components/billing-history-card.tsx",
+        "hash": "12911451316044912140"
+      },
+      {
+        "file": "vite-version/src/app/settings/billing/components/current-plan-card.tsx",
+        "hash": "7472737417230227941"
+      },
+      {
+        "file": "vite-version/src/app/settings/billing/data/billing-history.json",
+        "hash": "5825551259619299376"
+      },
+      {
+        "file": "vite-version/src/app/settings/billing/data/current-plan.json",
+        "hash": "7746370730166730088"
+      },
+      {
+        "file": "vite-version/src/app/settings/billing/page.tsx",
+        "hash": "995472951057417628"
+      },
+      {
+        "file": "vite-version/src/app/settings/connections/page.tsx",
+        "hash": "11213210922707229245"
+      },
+      {
+        "file": "vite-version/src/app/settings/notifications/page.tsx",
+        "hash": "8449271828529956310"
+      },
+      {
+        "file": "vite-version/src/app/settings/user/page.tsx",
+        "hash": "16216013727522293615"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/add-task-modal.tsx",
+        "hash": "2558415869712235742"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/columns.tsx",
+        "hash": "12107825584115037124"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table-column-header.tsx",
+        "hash": "18050337601940033700"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table-faceted-filter.tsx",
+        "hash": "1101752559379126628"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table-pagination.tsx",
+        "hash": "15517969377552465652"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table-row-actions.tsx",
+        "hash": "1058879208748089496"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table-toolbar.tsx",
+        "hash": "3351772853425560770"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table-view-options.tsx",
+        "hash": "4109754393147541008"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/data-table.tsx",
+        "hash": "16531765820535027327"
+      },
+      {
+        "file": "vite-version/src/app/tasks/components/user-nav.tsx",
+        "hash": "13045477261576941479"
+      },
+      {
+        "file": "vite-version/src/app/tasks/data/data.tsx",
+        "hash": "9608082112911126996"
+      },
+      {
+        "file": "vite-version/src/app/tasks/data/schema.ts",
+        "hash": "15177744733579953406"
+      },
+      {
+        "file": "vite-version/src/app/tasks/data/tasks.json",
+        "hash": "411401023699255699"
+      },
+      {
+        "file": "vite-version/src/app/tasks/page.tsx",
+        "hash": "2896157712127194923"
+      },
+      {
+        "file": "vite-version/src/app/users/components/data-table.tsx",
+        "hash": "223077019324522126"
+      },
+      {
+        "file": "vite-version/src/app/users/components/stat-cards.tsx",
+        "hash": "6539617677135345682"
+      },
+      {
+        "file": "vite-version/src/app/users/components/user-form-dialog.tsx",
+        "hash": "6205260254718191839"
+      },
+      {
+        "file": "vite-version/src/app/users/data.json",
+        "hash": "4953181532208341302"
+      },
+      {
+        "file": "vite-version/src/app/users/page.tsx",
+        "hash": "13669500912866493293"
+      },
+      {
+        "file": "vite-version/src/assets/react.svg",
+        "hash": "16069471864800376455"
+      },
+      {
+        "file": "vite-version/src/components/app-sidebar.tsx",
+        "hash": "14021265439608043107"
+      },
+      {
+        "file": "vite-version/src/components/color-picker.tsx",
+        "hash": "15160463845204904266"
+      },
+      {
+        "file": "vite-version/src/components/command-search.tsx",
+        "hash": "4332848123880933885"
+      },
+      {
+        "file": "vite-version/src/components/dot-pattern.md",
+        "hash": "5631228226798723978"
+      },
+      {
+        "file": "vite-version/src/components/dot-pattern.tsx",
+        "hash": "6777614092937053294"
+      },
+      {
+        "file": "vite-version/src/components/image-3d.md",
+        "hash": "6223296100236883736"
+      },
+      {
+        "file": "vite-version/src/components/image-3d.tsx",
+        "hash": "6143513076613959820"
+      },
+      {
+        "file": "vite-version/src/components/landing/mega-menu.tsx",
+        "hash": "3040601953507204135"
+      },
+      {
+        "file": "vite-version/src/components/layouts/base-layout.tsx",
+        "hash": "8143274103364949814"
+      },
+      {
+        "file": "vite-version/src/components/logo.tsx",
+        "hash": "1882350300190551302"
+      },
+      {
+        "file": "vite-version/src/components/mode-toggle.tsx",
+        "hash": "9602201984330204252"
+      },
+      {
+        "file": "vite-version/src/components/nav-main.tsx",
+        "hash": "4956778661872560667"
+      },
+      {
+        "file": "vite-version/src/components/nav-secondary.tsx",
+        "hash": "10055121869885966432"
+      },
+      {
+        "file": "vite-version/src/components/nav-user.tsx",
+        "hash": "6431748200254026159"
+      },
+      {
+        "file": "vite-version/src/components/pricing-plans.tsx",
+        "hash": "7771747559096426107"
+      },
+      {
+        "file": "vite-version/src/components/router/app-router.tsx",
+        "hash": "10626675635552758840"
+      },
+      {
+        "file": "vite-version/src/components/sidebar-notification.tsx",
+        "hash": "18287131695191388536"
+      },
+      {
+        "file": "vite-version/src/components/site-footer.tsx",
+        "hash": "11604716396522347935"
+      },
+      {
+        "file": "vite-version/src/components/site-header.tsx",
+        "hash": "12459545109085162386"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer.tsx",
+        "hash": "9122853178095758436"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer/circular-transition.css",
+        "hash": "6642983556975463526"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer/import-modal.tsx",
+        "hash": "13701047278280025920"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer/index.tsx",
+        "hash": "16195349807827908532"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer/layout-tab.tsx",
+        "hash": "12719781382116206343"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer/main.tsx",
+        "hash": "6695553757048153950"
+      },
+      {
+        "file": "vite-version/src/components/theme-customizer/theme-tab.tsx",
+        "hash": "9730300098398399006"
+      },
+      {
+        "file": "vite-version/src/components/theme-provider.tsx",
+        "hash": "12792754011673612542"
+      },
+      {
+        "file": "vite-version/src/components/ui/accordion.tsx",
+        "hash": "11809122693791108423"
+      },
+      {
+        "file": "vite-version/src/components/ui/avatar.tsx",
+        "hash": "7452765948676719257"
+      },
+      {
+        "file": "vite-version/src/components/ui/badge.tsx",
+        "hash": "10963678808027697072"
+      },
+      {
+        "file": "vite-version/src/components/ui/breadcrumb.tsx",
+        "hash": "4542918030053654785"
+      },
+      {
+        "file": "vite-version/src/components/ui/button.tsx",
+        "hash": "10225437513930193679"
+      },
+      {
+        "file": "vite-version/src/components/ui/calendar.tsx",
+        "hash": "18147358107283517352"
+      },
+      {
+        "file": "vite-version/src/components/ui/card-decorator.tsx",
+        "hash": "14700314026995655857"
+      },
+      {
+        "file": "vite-version/src/components/ui/card.tsx",
+        "hash": "12626163197687957168"
+      },
+      {
+        "file": "vite-version/src/components/ui/chart.tsx",
+        "hash": "5585399882073485368"
+      },
+      {
+        "file": "vite-version/src/components/ui/checkbox.tsx",
+        "hash": "17824499335902137134"
+      },
+      {
+        "file": "vite-version/src/components/ui/collapsible.tsx",
+        "hash": "17074057275547707461"
+      },
+      {
+        "file": "vite-version/src/components/ui/command.tsx",
+        "hash": "14463411919929973577"
+      },
+      {
+        "file": "vite-version/src/components/ui/dialog.tsx",
+        "hash": "3787619525081248836"
+      },
+      {
+        "file": "vite-version/src/components/ui/drawer.tsx",
+        "hash": "2074618829314787632"
+      },
+      {
+        "file": "vite-version/src/components/ui/dropdown-menu.tsx",
+        "hash": "14323700809136055032"
+      },
+      {
+        "file": "vite-version/src/components/ui/form.tsx",
+        "hash": "3200697611223940984"
+      },
+      {
+        "file": "vite-version/src/components/ui/hover-card.tsx",
+        "hash": "3546213997930483081"
+      },
+      {
+        "file": "vite-version/src/components/ui/input.tsx",
+        "hash": "5100320126020590845"
+      },
+      {
+        "file": "vite-version/src/components/ui/label.tsx",
+        "hash": "4362919960382970735"
+      },
+      {
+        "file": "vite-version/src/components/ui/loading-spinner.tsx",
+        "hash": "10288488523370905931"
+      },
+      {
+        "file": "vite-version/src/components/ui/navigation-menu.tsx",
+        "hash": "1463801237709690436"
+      },
+      {
+        "file": "vite-version/src/components/ui/popover.tsx",
+        "hash": "2123900949476297986"
+      },
+      {
+        "file": "vite-version/src/components/ui/progress.tsx",
+        "hash": "8046326627792569033"
+      },
+      {
+        "file": "vite-version/src/components/ui/radio-group.tsx",
+        "hash": "9122487715209743435"
+      },
+      {
+        "file": "vite-version/src/components/ui/resizable.tsx",
+        "hash": "16715976187353444410"
+      },
+      {
+        "file": "vite-version/src/components/ui/scroll-area.tsx",
+        "hash": "13077458416230608978"
+      },
+      {
+        "file": "vite-version/src/components/ui/select.tsx",
+        "hash": "11533529443122368476"
+      },
+      {
+        "file": "vite-version/src/components/ui/separator.tsx",
+        "hash": "17968105264491771283"
+      },
+      {
+        "file": "vite-version/src/components/ui/sheet.tsx",
+        "hash": "12163869745913107582"
+      },
+      {
+        "file": "vite-version/src/components/ui/sidebar.tsx",
+        "hash": "16468449439052678096"
+      },
+      {
+        "file": "vite-version/src/components/ui/skeleton.tsx",
+        "hash": "16279548040846261523"
+      },
+      {
+        "file": "vite-version/src/components/ui/sonner.tsx",
+        "hash": "9121351327972353123"
+      },
+      {
+        "file": "vite-version/src/components/ui/switch.tsx",
+        "hash": "2715221984545660021"
+      },
+      {
+        "file": "vite-version/src/components/ui/table.tsx",
+        "hash": "9236219364163009886"
+      },
+      {
+        "file": "vite-version/src/components/ui/tabs.tsx",
+        "hash": "14375166271492042760"
+      },
+      {
+        "file": "vite-version/src/components/ui/textarea.tsx",
+        "hash": "3895507706129911610"
+      },
+      {
+        "file": "vite-version/src/components/ui/toggle-group.tsx",
+        "hash": "15943558637507000692"
+      },
+      {
+        "file": "vite-version/src/components/ui/toggle.tsx",
+        "hash": "17525608547397603190"
+      },
+      {
+        "file": "vite-version/src/components/ui/tooltip.tsx",
+        "hash": "6287152514570869404"
+      },
+      {
+        "file": "vite-version/src/components/upgrade-to-pro-button.tsx",
+        "hash": "15218478837507948732"
+      },
+      {
+        "file": "vite-version/src/config/routes.tsx",
+        "hash": "3977050355560753473"
+      },
+      {
+        "file": "vite-version/src/config/theme-customizer-constants.ts",
+        "hash": "11845708184252525377"
+      },
+      {
+        "file": "vite-version/src/config/theme-data.ts",
+        "hash": "1499546345287188940"
+      },
+      {
+        "file": "vite-version/src/contexts/sidebar-context.tsx",
+        "hash": "13449789881637226355"
+      },
+      {
+        "file": "vite-version/src/contexts/theme-context.ts",
+        "hash": "5050368128152129134"
+      },
+      {
+        "file": "vite-version/src/hooks/use-circular-transition.ts",
+        "hash": "4858298178794348962"
+      },
+      {
+        "file": "vite-version/src/hooks/use-fullscreen.ts",
+        "hash": "5792776653132586881"
+      },
+      {
+        "file": "vite-version/src/hooks/use-mobile.ts",
+        "hash": "14900138732519213047"
+      },
+      {
+        "file": "vite-version/src/hooks/use-sidebar-config.ts",
+        "hash": "8296871572521746641"
+      },
+      {
+        "file": "vite-version/src/hooks/use-theme-manager.ts",
+        "hash": "17921646840934344815"
+      },
+      {
+        "file": "vite-version/src/hooks/use-theme.ts",
+        "hash": "14365741280089239104"
+      },
+      {
+        "file": "vite-version/src/index.css",
+        "hash": "3865530157206402721"
+      },
+      {
+        "file": "vite-version/src/lib/fonts.ts",
+        "hash": "805849504896832638"
+      },
+      {
+        "file": "vite-version/src/lib/utils.ts",
+        "hash": "14855207526595413709"
+      },
+      {
+        "file": "vite-version/src/main.tsx",
+        "hash": "11038211546439381838"
+      },
+      {
+        "file": "vite-version/src/types/theme-customizer.ts",
+        "hash": "16053763503966228986"
+      },
+      {
+        "file": "vite-version/src/types/theme.ts",
+        "hash": "17072196602920092585"
+      },
+      {
+        "file": "vite-version/src/utils/analytics.ts",
+        "hash": "12514930742494233641"
+      },
+      {
+        "file": "vite-version/src/utils/shadcn-ui-theme-presets.ts",
+        "hash": "6484786719330090192"
+      },
+      {
+        "file": "vite-version/src/utils/tweakcn-theme-presets.ts",
+        "hash": "7912629309007642025"
+      },
+      {
+        "file": "vite-version/src/vite-env.d.ts",
+        "hash": "12946363841406869089"
+      },
+      {
+        "file": "vite-version/tsconfig.app.json",
+        "hash": "10892755983089857820"
+      },
+      {
+        "file": "vite-version/tsconfig.json",
+        "hash": "4483595938123098349"
+      },
+      {
+        "file": "vite-version/tsconfig.node.json",
+        "hash": "12526670948656573966"
+      },
+      {
+        "file": "vite-version/vite.config.ts",
+        "hash": "12659186740618684987"
+      }
+    ],
+    "projectFileMap": {}
+  },
+  "externalNodesHash": "3244421341483603138"
+}
