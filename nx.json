@@ -1,5 +1,10 @@
 {
   "installation": {
     "version": "22.5.1"
+<<<<<<< HEAD
   }
+=======
+  },
+  "nxCloudId": "699881c5d1ad6125ad43052b"
+>>>>>>> 2e9d20e (chore: init nx)
 }
