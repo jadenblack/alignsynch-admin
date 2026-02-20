@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.nx/installation
+.nx/cache
+.nx/workspace-data
